@@ -1,0 +1,142 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "autobahn-sign-up;verify-user-success-to-signup-in-autobahn-site",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify user success to signup in Autobahn site",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Generate email from mail site",
+            "result": {
+              "duration": 15190000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 6,
+            "name": "user open autobahn signup page",
+            "result": {
+              "duration": 16735000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "input email",
+            "result": {
+              "duration": 1620000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 8,
+            "name": "input password",
+            "result": {
+              "duration": 1420000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "click Sign Up button",
+            "result": {
+              "duration": 413000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 10,
+            "name": "user input info data",
+            "result": {
+              "duration": 12034000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 11,
+            "name": "click start using autobahn button",
+            "result": {
+              "duration": 2563000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "click verify account from mail box",
+            "result": {
+              "duration": 19697000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 13,
+            "name": "user should be redirected to home page",
+            "result": {
+              "duration": 14146000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 1,
+            "name": "@autobahn"
+          }
+        ]
+      }
+    ],
+    "id": "autobahn-sign-up",
+    "keyword": "Feature",
+    "line": 2,
+    "name": "Autobahn Sign Up",
+    "uri": "cypress/features/tests/AutobahnSignUp.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@autobahn"
+      }
+    ]
+  }
+]
